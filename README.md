@@ -30,9 +30,9 @@ Headline	Sentiment Score
 "Unemployment rates remain unchanged"	0.04
 "Political unrest disrupts local trade"	-0.62
 📂 Project Files
-lambda_fn.py — AWS Lambda function code that fetches news from the News API and pushes data to Kafka on EC2.
-glue_.py — AWS Glue script that reads news data from Kafka, performs sentiment analysis, and writes results to S3.
-snow.sql — SQL script used to create tables and load data into Snowflake from S3.
+['lambda_fn.py'](lambda_fn.py) — AWS Lambda function code that fetches news from the News API and pushes data to Kafka on EC2.
+['glue_.py'](glue_.py) — AWS Glue script that reads news data from Kafka, performs sentiment analysis, and writes results to S3.
+['snow.sql'](snow.sql) — SQL script used to create tables and load data into Snowflake from S3.
 ⚙️ Configuration Setup
 Before running the project, make sure to configure the following:
 

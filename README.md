@@ -83,7 +83,7 @@ Always use environment variables, AWS Secrets Manager, or other secure methods t
 
 Power BI Visualization
 This project includes a Power BI report that visualizes the key insights from the dataset. You can explore the Power BI file to gain a better understanding of the trends and patterns.
-![Dashboard](MYPOWERBI_PROJECT)
+![Dashboard](MYPOWERBI_PROJECT.pbix)
 
 🧾 Conclusion
 This project showcases an automated and scalable data pipeline for news sentiment analysis using AWS services and Snowflake. It efficiently collects news data from the News API, streams it through Kafka hosted on EC2, processes it with AWS Glue, and stores the results in S3 and Snowflake. The sentiment scores provide valuable insights visualized in Power BI. Automation with Lambda triggers and scheduled Snowflake tasks ensures continuous and timely data updates. This setup highlights how to build an integrated, real-time analytics workflow in the cloud.

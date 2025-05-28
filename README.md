@@ -79,7 +79,7 @@ Glue Streaming Job: Automatically picks up new Kafka data as it arrives.
 Do not expose or commit your AWS credentials, Snowflake credentials, or API keys to any public repositories.
 Always use environment variables, AWS Secrets Manager, or other secure methods to store sensitive information.
 
-![Architecture](newsapi_architecture.jpeg)
+![Architecture](etl_pipelinee_(2).jpeg)
 
 Power BI Visualization
 This project includes a Power BI report that visualizes the key insights from the dataset. You can explore the Power BI file to gain a better understanding of the trends and patterns.
